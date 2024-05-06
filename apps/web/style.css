@@ -1,0 +1,119 @@
+/* CSS personalizado */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #5e0094, #4964ff);
+    background-size: 200% 200%; /* Tamanho maior para criar espaço para o movimento */
+    animation: gradientAnimation infinite linear;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#question {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#alternatives {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alternative {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.alternative:hover {
+    background-color: rgba(180, 128, 228, 0.781);
+    color: #e3e5ff;
+    border-color: #e3e5ff;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #333; /* Cor do texto alterada para um tom mais escuro */
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+#popup p {
+    margin-bottom: 20px;
+}
+
+#popup button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #7f4caf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#popup button:hover {
+    background-color: #605abd;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
