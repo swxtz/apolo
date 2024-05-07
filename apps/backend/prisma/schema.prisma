@@ -9,18 +9,18 @@ generator client {
 }
 
 datasource db {
-  provider = "mongodb"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
 model user {
-  id       String @id @default(cuid()) @map("_id") @db.ObjectId
+  id       String @id @default(cuid())
   name     String @unique
   maxScore Int    @map("max_score")
 }
 
 model score {
-  id    String @id @default(cuid()) @map("_id") @db.ObjectId
+  id    String @id @default(cuid()) @map("_id")
   owner String
   score Int
 }
