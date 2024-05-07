@@ -8,8 +8,8 @@ export function server() {
     
     app.register(fastifyCors, { origin: "*" })
 
-    app.register(scoreRoutes);
-    app.register(usersRoutes);
+    app.register(scoreRoutes, { prefix: "/score" });
+    app.register(usersRoutes, { prefix: "/users" });
 
     return app;
 }
