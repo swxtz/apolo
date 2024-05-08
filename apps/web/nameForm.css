@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #5e0094, #4964ff);
+    background-size: 200% 200%; /* Tamanho maior para criar espaço para o movimento */
+    animation: gradientAnimation infinite linear;
+}
+p {
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+#nameForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+    gap: 2rem;
+}
+#nameForm label {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+#nameForm input{
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+#nameForm button{
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #7f4caf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+a {
+    color: white;
+    border-style: none;
+    text-decoration: none;
+}
