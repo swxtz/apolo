@@ -83,4 +83,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Lidar com o clique no botão "Reiniciar"
     document.getElementById("restartButton").addEventListener("click", restartGame);
+
+    function redirecionar() {
+     window.location.href='./apps/web/ranking.php';
+    }
 });

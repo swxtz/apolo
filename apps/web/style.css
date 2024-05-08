@@ -14,6 +14,9 @@ body {
     background-size: 200% 200%; /* Tamanho maior para criar espaço para o movimento */
     animation: gradientAnimation infinite linear;
 }
+p {
+    color: white;
+}
 
 .container {
     width: 80%;
@@ -46,7 +49,7 @@ h1 {
     padding: 10px 20px;
     font-size: 1.2rem;
     background-color: #ffffff;
-    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    color: #333; 
     border: 2px solid #ffffff;
     border-radius: 5px;
     cursor: pointer;
@@ -70,7 +73,7 @@ h1 {
     position: absolute;
     top: 10px;
     right: 10px;
-    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    color: white; /* Cor do texto alterada para um tom mais escuro */
 }
 
 #popup {
@@ -79,8 +82,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
+    background-color: black;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -117,3 +119,14 @@ h1 {
         background-position: 100% 50%;
     }
 }
+.button{
+    background-color: lightseagreen;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    display: block;
+    font-size: medium;
+    right:20vh;
+}
+

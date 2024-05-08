@@ -9,13 +9,14 @@
 <body>
     <div class="container">
         <h1>Jogo de Multiplicação</h1>
-        <p id="question"></p>
+        <h2 id="question"></h2>
         <div id="alternatives"></div>
-        <p id="result"></p>
+        <h2 id="result"></h2>
         <div id="score">Pontuação: <span id="scoreValue">0</span></div>
         <div id="popup">
             <p>Você fez <span id="popupScore"></span> ponto(s)! Deseja reiniciar o jogo?</p>
             <button id="restartButton">Reiniciar</button>
+            <button onclick="redirecionar()"> Ranking </button> 
         </div>
     </div>
 
