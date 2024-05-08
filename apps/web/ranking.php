@@ -8,8 +8,31 @@
 </head>
 <body>
 <div class="container">
-        <h1>Ranking</h1>
-        
+<div class="title">
+    <h1>Ranking</h1>
+</div>
+    <div class="positions">
+            <div class="first">
+                <span>NOME</span>
+                <span>SCORE</span>
+            </div>
+            <div class="second">
+                <span>NOME</span>
+                <span>SCORE</span>
+            </div>
+            <div class="third">
+                <span>NOME</span>
+                <span>SCORE</span>
+            </div>
+            <div class="forth">
+                <span>NOME</span>
+                <span>SCORE</span>
+            </div>
+            <div class="fifth">
+                <span>NOME</span>
+                <span>SCORE</span>
+            </div>
+    </div>
 </div>
 
 </body>
