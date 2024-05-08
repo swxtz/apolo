@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto alterada para um tom mais escuro */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #5e0094, #4964ff);
+    background-size: 200% 200%; /* Tamanho maior para criar espaço para o movimento */
+    animation: gradientAnimation infinite linear;
+}
+h1 {
+    color: white;
+}

@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let score = 0; // Contador de acertos
     let numQuestions = 0; // Contador de questões
 
+    function redirecionar() {
+        window.location.href='./apps/web/ranking.php';
+       }
     // Função para gerar números aleatórios
     function generateRandomNumber(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -84,7 +87,5 @@ document.addEventListener("DOMContentLoaded", function() {
     // Lidar com o clique no botão "Reiniciar"
     document.getElementById("restartButton").addEventListener("click", restartGame);
 
-    function redirecionar() {
-     window.location.href='./apps/web/ranking.php';
-    }
+   
 });

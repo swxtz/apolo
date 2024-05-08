@@ -130,3 +130,9 @@ h1 {
     right:20vh;
 }
 
+a {
+    color: white;
+    border-style: none;
+    text-decoration: none;
+}
+

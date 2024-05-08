@@ -16,7 +16,7 @@
         <div id="popup">
             <p>Você fez <span id="popupScore"></span> ponto(s)! Deseja reiniciar o jogo?</p>
             <button id="restartButton">Reiniciar</button>
-            <button onclick="redirecionar()"> Ranking </button> 
+            <button onclick="redirecionar()"> <a href="ranking.php" > Ranking </a> </button> 
         </div>
     </div>
 
