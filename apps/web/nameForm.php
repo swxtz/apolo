@@ -11,8 +11,8 @@
         <h1>Jogo de Multiplicação</h1>
         <form id="nameForm">
                 <label for="nome">Por favor, insira seu nome:</label>
-                <input type="text" id="nome" name="nome" maxlength="50" required>
-                <button> <a href="index.php" > Iniciar Jogo </a> </button>
+                <input type="text" id="nomeid" name="nome" maxlength="50" required>
+                <button onclick="Go()">  Iniciar Jogo </a> </button>
         </form> 
     </div>
     <script src="script.js"></script>
