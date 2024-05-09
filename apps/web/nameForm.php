@@ -16,6 +16,38 @@
         </form> 
     </div>
     <script src="script.js"></script>
+    <script>
+    function submitUserName() {
+        const userName = document.getElementById('userName').value;
+
+        if (userName.trim() === '') {
+            alert('Por favor, digite seu nome.');
+            return;
+        }
+
+        fetch('URL_DO_SEU_ENDPOINT', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name: userName })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao enviar o nome do usuário.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Nome do usuário enviado com sucesso:', data);
+            
+        })
+        .catch(error => {
+            console.error('Erro ao enviar o nome do usuário:', error);
+            
+        });
+    }
+</script>
 </body>
 </html>   
 
