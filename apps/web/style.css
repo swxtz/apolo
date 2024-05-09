@@ -7,6 +7,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,6 +19,11 @@ body {
 p {
     color: white;
 }
+
+.hidden {
+    display: none;
+}
+
 
 .container {
     width: 80%;
@@ -135,4 +142,5 @@ a {
     border-style: none;
     text-decoration: none;
 }
+
 

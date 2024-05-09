@@ -12,7 +12,26 @@
         <h1>Ranking</h1>
     </div>
     <div class="positions" id="positions">
-       
+    <div class="rank">
+                <span>JOSÉ</span>
+                <span>40</span>
+            </div>
+            <div class="rank">
+                <span>MARIA</span>
+                <span>30</span>
+            </div>
+            <div class="rank">
+                <span>PEDRO</span>
+                <span>20</span>
+            </div>
+            <div class="rank">
+                <span>MARCOS</span>
+                <span>10</span>
+            </div>
+            <div class="rank">
+                <span>ANA</span>
+                <span>5</span>
+            </div>
     </div>
 </div>
 

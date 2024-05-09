@@ -3,6 +3,7 @@ body {
     color: #333; /* Cor do texto alterada para um tom mais escuro */
     margin: 0;
     padding: 0;
+    flex-direction: column;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -67,4 +68,8 @@ a {
     color: white;
     border-style: none;
     text-decoration: none;
+}
+
+.hidden-form {
+    visibility: hidden;
 }
