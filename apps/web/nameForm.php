@@ -12,7 +12,7 @@
         <form id="nameForm">
                 <label for="nome">Por favor, insira seu nome:</label>
                 <input type="text" id="nome" name="nome" maxlength="50" required>
-                <button onclick="generateRandomNumber()"> <a href="index.php" > Iniciar Jogo </a> </button>
+                <button> <a href="index.php" > Iniciar Jogo </a> </button>
         </form> 
     </div>
     <script src="script.js"></script>
